@@ -23,7 +23,7 @@ class SistemaPedidos {
     @GetMapping("/hello")
     public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {return String.format("Hello %s!", name);}
 
-    @GetMapping("/produtos")
+    @GetMapping("/produtossss")
     public List<Produto> produtos(){
         List<Produto> produtos = new ArrayList<>();
 
